@@ -22,7 +22,7 @@ const Graph: FC<GraphProps> = (props: GraphProps): JSX.Element => {
   const segments = props.segments;
   const value = props.value;
   const valueLabel = props.valueLabel;
-  const levelLabel = props.valueLabel;
+  const levelLabel = props.levelLabel;
   const colors = props.colors;
   const styles = StyleSheet.create({
     labelColor: {
